@@ -4,7 +4,7 @@
 
 # Objective
 
-Sorting a given a dataset consisting of an array of product IDs with merge sort and quick sort, by showing every iteration for each algorithm.
+Sorting a given a dataset consisting of an array of product IDs with merge sort, by showing every iteration for the algorithm.
 
 # Documentation
 
