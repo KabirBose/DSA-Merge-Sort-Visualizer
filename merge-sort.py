@@ -1,6 +1,9 @@
 # Kabir Bose: 100862410
 # merge sort algorithm
 
+import os
+file = "swap-sound.mp3"
+
 def merge_sort(arr):
     # only perform sorting if the array is > than 1 || return
     if len(arr) > 1:
@@ -14,6 +17,9 @@ def merge_sort(arr):
         print('----------------------------------------------')
         print(f"Array: {arr}\nLeft side: {l}\nRight side: {r}")
         print('----------------------------------------------')
+
+        # play a sound after each swap
+        os.system("afplay " + file)
 
         # sort the left side
         merge_sort(l)
