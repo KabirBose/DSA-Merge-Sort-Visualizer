@@ -2,7 +2,7 @@
 
 # Purpose
 
-Sorting a given a dataset consisting of an array of product IDs with _merge sort_, by simulating every iteration of the algorithm. After each iteration a sound effect is played.
+Sorting a given a dataset consisting of an array of product IDs using _merge sort_, by simulating every iteration of the algorithm. After each iteration a sound effect is played.
 
 # Documentation
 
